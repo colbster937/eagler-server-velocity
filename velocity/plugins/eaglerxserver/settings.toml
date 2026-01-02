@@ -55,7 +55,7 @@ eagler_players_vanilla_skin = ""
 enable_authentication_events = false
 # Default value is false, if support for servers running the EaglerXBackendRPC
 # plugin should be enabled or not.
-enable_backend_rpc_api = false
+enable_backend_rpc_api = true
 # Default value is false, if "modernized" plugin channel names compatible with
 # Minecraft 1.13+ should be used for EaglerXBackendRPC plugin message packets.
 # Enable this if you use Minecraft 1.13+ on your backend Spigot servers.
@@ -65,7 +65,7 @@ use_modernized_channel_names = false
 # distance as vanilla players. Only supported on Paper, if EaglerXServer is
 # installed on the BungeeCord/Velocity proxy then EaglerXBackendRPC is required on
 # the backend Paper servers for the setting to have any effect.
-eagler_players_view_distance = 6
+eagler_players_view_distance = 4
 # Default value is 10, the number of milliseconds to wait before flushing all
 # pending EaglercraftX plugin message packets, saves bandwidth by combining
 # multiple messages into a single plugin message packet. Setting this to 0 has the
