@@ -145,8 +145,8 @@ world-settings:
     armor-stands-tick: true
     keep-spawn-loaded: true
     anti-xray:
-      enabled: false
-      engine-mode: 1
+      enabled: true
+      engine-mode: 2
       chunk-edge-mode: 1
       max-chunk-section-index: 3
       update-radius: 2

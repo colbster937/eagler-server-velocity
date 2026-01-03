@@ -59,7 +59,7 @@ enforce-secure-chat: false
 fix-1_14-health-nan: true
 #
 # Fixes 1.21+ clients on 1.20.5 servers placing water/lava buckets at the wrong location when moving fast, NOTE: This may cause issues with anti-cheat plugins.
-fix-1_21-placement-rotation: true
+fix-1_21-placement-rotation: false
 # Infested blocks are instantly breakable for 1.13+ clients, resulting in them being unable to break them on sub 1.13 servers. This remaps them to their normal stone variants
 fix-infested-block-breaking: true
 # For 1.13 clients the smallest (1 layer) snow doesn't have collisions, this will send these as 2 snowlayers for 1.13+ clients to prevent them bugging through them
