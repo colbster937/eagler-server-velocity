@@ -19,7 +19,7 @@ If you're trying to self host but have no idea what you're doing, i recommend in
 ### Updating
 i might be too lazy to update some of this so if you wanna update it for me, upload the updated plugins and replace the versions set here. 
 
-- Velocity: 3.4.0-SNAPSHOT-552  
+- Velocity: 3.4.0-SNAPSHOT-559
 - ViaBackwards: 5.5.2-SNAPSHOT  
 - ViaRewind: 4.0.11
 - ViaRewind-Legacy-Support: 1.5.3  
