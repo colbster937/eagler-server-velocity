@@ -5,6 +5,7 @@ default_game_mode = "spectator"
 hardcore = false
 fetch_player_skins = false
 reduced_debug_info = false
+allow_unsupported_versions = false
 
 [forwarding]
 method = "NONE"
@@ -33,7 +34,8 @@ min_y = -64
 teleport_message = "<red>You have reached the bottom of the world.</red>"
 
 [server_list]
-max_players = 67
+reply_to_status = true
+max_players = 500
 message_of_the_day = "A Minecraft Server"
 show_online_player_count = true
 server_icon = "server-icon.png"
@@ -46,6 +48,7 @@ level = 6
 enabled = true
 header = "<bold>Welcome to PicoLimbo</bold>"
 footer = "<green>Enjoy your stay!</green>"
+player_listed = true
 
 [boss_bar]
 enabled = false
