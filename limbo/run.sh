@@ -1,3 +1,2 @@
 #!/bin/bash
-chmod +x pico_limbo
-./pico_limbo
+java -jar picolimbo_v1.10.1.jar
